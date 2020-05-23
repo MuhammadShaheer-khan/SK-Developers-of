@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SK-Developers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Assignment-04</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><input type=button onClick="location.href='index.html'" value='Home'> </li>
+                    <li><input type=button onClick="location.href='about.html'" value='About Us'></li>
+                    <li><input type=button onClick="location.href='portfolio.html'" value='Portfolio'></li>
+                    <li><input type=button onClick="location.href='contact.html'" value='Contact Us'></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="contact">
+        <div class="container">
+            <div class="text-center">
+                <h2>Contact Us</h2>
+                <p>Swing by for a cup of coffee, or leave us a message:</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="../../BGimages/agnmm44.jpg" width="500px" alt="image" class="imageform">
+                </div>
+                <div class="column">
+                    <form action="">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+                        <label for="Country">Country</label>
+                        <select id="country" name="country">
+                            <option value="Pakistan">Pakistan</option>
+                            <option value="Turkey">Turkey</option>
+                        </select>
+
+                        <label for="City">City</label>
+                        <select id="city" name="city">
+                            <option value="Karachi">Karachi</option>
+                            <option value="Islamabad">Islamabad</option>
+                            <option value="Lahore">Lahore</option>
+                            <option value="Multan">Multan</option>
+                            <option value="Quetta">Quetta</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Sukkur">Sukkur</option>
+                            <option value="Istanbul">Istanbul</option>
+                            <option value="Ankara">Ankara</option>
+                            <option value="Izmir">Izmir</option>
+                            <option value="Konya">Konya</option>
+                            <option value="Bodrum">Bodrum</option>
+                            <option value="Sivas">Sivas</option>
+                            <option value="Bursa">Bursa</option>
+                        </select>
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:170px"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
