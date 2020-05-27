@@ -131,6 +131,11 @@ section{
 
  @media screen and (min-width: 315px) and (max-width: 400px){
 
+    /* body{
+        width: auto;
+    } */
+
+
     .menu {
         width: 80%;
         height: 100px;
@@ -156,25 +161,25 @@ section{
 
 
     .center h1 {
-        font-size: 15px;
+        font-size: 18px;
         font-weight: bold;
         height: 15px;
         color: black;
         text-align: center;
-        margin-top: 15px;
+        margin-top: 10px;
         padding: 0px;
     }
 
     .center p{
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .social_network {
         width: 70px;
         height: auto;
         position: absolute;
-        right: -15px;
-        top: 35%;
+        right: 8px;
+        top: 30%;
     }
 
     .fa_icons{
@@ -192,6 +197,12 @@ section{
         color: white;
     }
 
+    .figure img{
+        margin-top: 20px;
+        border-radius: 50%;
+        width: 100%;
+    }
+
 
  }
 
@@ -199,7 +210,7 @@ section{
 
 
 
-@media screen and (max-width: 474px) {
+@media screen and (min-width:400px) and (max-width: 474px) {
     .main{
         width: 100%;
         height: 100vh;
@@ -247,6 +258,7 @@ section{
         right: 0px;
         top: 35%;
     }
+
     .imageform {
         width: 100%;
     }
@@ -254,7 +266,7 @@ section{
 }
 
 
-@media screen and (min-width: 480px) and (max-width: 574px) {
+@media screen and (min-width: 475px) and (max-width: 574px) {
     .main{
         width: 100%;
         height: 100vh;
@@ -364,7 +376,7 @@ section{
 
 /* //////////////////////////////////////////ABOUT US PAGE////////////////////////////////////////////////// */
 .about-us{
-    height: 150px;
+    /* height: 150px; */
     width: 100%;
     padding: 80px 0px 50px;
     background: linear-gradient(to bottom, pink 20%,rgb(252, 251, 220) 80%);
@@ -402,11 +414,12 @@ section{
 }
 
 .team p{
-    margin: 20px;
+    margin-top: 20px;
     font-size: 20px;
     color: rgb(121, 110, 110);
     justify-content: center;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .teamsetting{
@@ -446,8 +459,7 @@ section{
 }
 .portfolio h1{
     margin: 30px;
-    font-size: 60px;
-    font-weight: bold;
+    font-size: 50px;
 }
 
 .portfolio p{
