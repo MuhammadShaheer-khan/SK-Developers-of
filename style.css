@@ -65,6 +65,7 @@ nav {
     background: linear-gradient(65deg, #09e9c7, #0e0c7c);
     border-radius: 4px;
     padding: 12px;
+    outline: none;
 }
 
 .menu ul li input:hover {
@@ -103,6 +104,8 @@ section{
     top: 40%;
 }
 
+
+
 .fa_icons{
     width: 50px;
     height: 50px;
@@ -111,7 +114,7 @@ section{
     background: linear-gradient(to bottom,  #09e9c7 0%, #4441d6 100%);
     display: flex;
     justify-content: center;
-    margin: 10px;   
+    margin: 10px;
 }
 
 .fa_icons:hover {
@@ -189,7 +192,7 @@ section{
         background: linear-gradient(to bottom,  #09e9c7 0%, #4441d6 100%);
         display: flex;
         justify-content: center;
-        margin: 10px;   
+        margin: 10px;  
     }
 
     .goo {
@@ -200,6 +203,9 @@ section{
     .figure img{
         margin-top: 20px;
         border-radius: 50%;
+        width: 100%;
+    }
+    .column img{
         width: 100%;
     }
 
@@ -368,8 +374,8 @@ section{
         right: 0px;
         top: 35%;
     }
-    
 
+    
 }
 
 
@@ -533,4 +539,5 @@ input[type=text], select, textarea {
       width: 100%;
       margin-top: 0;
     }
+
 }
